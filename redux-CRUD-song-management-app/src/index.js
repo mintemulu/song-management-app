@@ -5,9 +5,6 @@ import App from './App';
 import store from './store';
 
 async function enableMocking() {
-  if (process.env.NODE_ENV !== 'development') {
-    return;
-  }
 
   const { worker } = await import('./mocks/browser');
 
