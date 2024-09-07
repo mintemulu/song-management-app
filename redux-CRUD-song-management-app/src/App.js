@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { SongList } from './features/songs/SongList';
-import { worker } from './mocks/browser';
 import { AddSong } from './features/songs/AddSong';
 import { EditSong } from './features/songs/EditSong';
 
