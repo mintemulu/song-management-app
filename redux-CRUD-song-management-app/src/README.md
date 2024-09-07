@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   
+   git clone https://github.com/mintemulu/song-management-app.git
    ```
 
 2. **Install dependencies**:
